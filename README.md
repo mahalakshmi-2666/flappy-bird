@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Flappy Bird Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Game Details
 
-## Available Scripts
+Flappy Bird is a simple and interactive 2D arcade game developed using React.js. The player controls a bird and tries to fly through moving pillars without hitting them. The game becomes more challenging as time passes.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Tap to Start:** The game starts when the player taps or clicks the screen.
+- **Bird Movement:** The bird flies upward when the player taps the screen or presses the Space bar.
+- **Moving Pillars:** Pillars move from right to left across the screen.
+- **Increasing Difficulty:** The speed of the pillars increases as the game progresses.
+- **Level System:** The game level increases automatically every 15 seconds.
+- **Score System:** Players earn one point for each pair of pillars they successfully pass.
+- **Collision Detection:** The game ends if the bird hits a pillar, the top boundary, or the ground.
+- **Game Over Screen:** Displays the final score and the level reached.
+- **Restart Option:** Players can restart the game and try to achieve a higher score.
+- **Responsive Design:** The game interface adjusts to different screen sizes.
+- **Animations:** Includes animated backgrounds, buttons, and interface elements.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React.js
+- JavaScript
+- HTML5 Canvas
+- CSS3
+- Create React App
 
-### `npm test`
+## Game Rules
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Tap or click the game screen to start.
+2. Tap or press the Space bar to make the bird fly upward.
+3. Avoid hitting the moving pillars and the ground.
+4. Pass through the gaps between the pillars to earn points.
+5. Survive for longer to reach higher levels.
+6. Every 15 seconds, the game level increases and the pillars move faster.
+7. If the bird collides with an obstacle, the game ends and the final score is displayed.
 
-### `npm run build`
+## Objective
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The main objective is to keep the bird flying between the pillars, achieve the highest possible score, and survive as long as possible while the game difficulty increases.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Conclusion
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Flappy Bird game demonstrates the use of React components, JavaScript game logic, HTML5 Canvas rendering, collision detection, score tracking, time-based level progression, and CSS animations to create an engaging arcade gaming experience.
